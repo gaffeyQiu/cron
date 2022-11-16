@@ -1,0 +1,28 @@
+App:
+  Mode: Debug
+  Log:
+    Dir: "./tmp/log" # 基于项目根目录或者写绝对路径
+
+Mysql:
+  Username: root
+  Passwd: Tcdn@2007
+  Ip: 192.168.101.18
+  Port: 3306
+  Db: hcnp_devops
+
+ES:
+  Username: elastic
+  Passwd: changeme
+  Address: http://192.168.77.18:9200
+
+Redis:
+  Ip: 192.168.101.19
+  Port: 6379
+  Passwd: Tcdn@2007
+
+TemporalServer:
+  Ip: 192.168.101.47
+  Port: 7233
+
+Worker:
+  TaskQueue: GREETING_TASK_QUEUE
